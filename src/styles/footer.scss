@@ -1,0 +1,102 @@
+.NEWSLETTER-content {
+    color: #394b50;
+}
+.NEWSLETTER-content {
+    font-size: 1.3rem;
+}
+button{
+    width: 25%;
+    margin: 1% 1%;
+    padding: 1% 1%;
+    background-color: #ffbb42;
+    color: #FFF;
+    border-radius: 5%;
+}
+.SUBSCRIBE-form .input{
+    width: 25%;
+    margin: 1% 1%;
+    padding: 1% 1%;
+    color: #a9a9a9;
+    border-radius: 5%;
+}
+.SUBSCRIBE-form {
+    display: flex;
+    justify-content: center;
+}
+.NEWSLETTER-big-block-cirkle {
+    width: 27rem;
+    height: 27rem;
+    border-radius: 50%;
+    background-color: #394b50;
+    margin: auto;
+    text-align: center;
+    padding-top: 8rem;
+  }
+.NEWSLETTER-big-block-cirkle NEWSLETTER-ul{
+    padding: 4rem 4rem;     
+} 
+.NEWSLETTER-big-block-cirkle li{
+    list-style-type: none;
+}
+.NEWSLETTER-big-block-cirkle li a{
+    color:#FFF;
+}
+.NEWSLETTER-ul .NEWSLETTER-li a{
+    line-height: 2rem;
+    color:#aeb7ba;
+}
+.NEWSLETTER-ul .NEWSLETTER-li a:hover{
+    color: #FFF;
+    font-weight: bold;
+}
+.NEWSLETTER-ul .NEWSLETTER-Address a {
+    font-size: 2rem;
+    color:white;
+}
+.NEWSLETTER-ul .NEWSLETTER-Address::after {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 1px;
+    background-color: #FFF;
+    margin-left: 25%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.NEWSLETTER-ul .NEWSLETTER-info a {
+    color: #ffbb42;
+}
+.NEWSLETTER-ul-bottom{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+.NEWSLETTER-ul-bottom li{
+    list-style-type: none;
+    padding: 1rem 1.8rem;
+    border-radius: 5px;
+}
+.NEWSLETTER-ul-bottom li:hover{
+    background-color: #ffbb42;
+    color: #FFF;
+}
+.NEWSLETTER-ul-bottom a:hover{
+    color: #FFF;
+}
+.footer {
+    text-align: center;
+    background-color: #709dca;
+    color:#FFF;
+    padding: 1rem 0;
+    margin-top: 3rem;
+}
+.NEWSLETTER-group {
+    text-align: center;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+.NEWSLETTER-group .fa {
+    font-size: 2rem;
+    padding: 1rem 1rem;
+}

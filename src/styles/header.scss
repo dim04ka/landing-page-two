@@ -1,0 +1,150 @@
+@font-face {
+    font-family: "OpenSans";
+    src: url("../font/OpenSans-Light.ttf"); 
+}
+@font-face {
+    font-family: "Gotham";
+    src: url("../font/Gotham Black Regular.ttf"); 
+}
+@font-face {
+    font-family: "Lato";
+    src: url("../font/Lato-Regular.ttf"); 
+} 
+
+@font-face {
+    font-family: 'fontello';
+    src: url('./font/fontello.eot');
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: sans-serif;
+    font-size: 10px;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.section {
+    width: 100%;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto; 
+}
+ .header  {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+ }
+ .logo {
+     border-radius: 50px;
+ }
+ .header_btn {
+    display: none;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    position: absolute;
+    right: 15px;
+    top: 0px;
+    cursor: pointer;
+ }
+a {
+    text-decoration: none;
+    font-family: "Lato";
+    font-size: 1.35rem;
+    color: #6e6e6e;
+}
+.menu .main-menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-top: -38px;
+    margin-bottom: 10px;
+    justify-content: flex-end;
+}
+ .main-menu  li{
+     padding: 1rem 1.8rem;
+     border-radius: 5px;
+ }
+ .main-menu  li:hover{
+    background-color: #ffbb42;
+    color: #FFF;
+}
+.main-menu  a:hover{
+    color: #FFF;
+}
+ .main-menu .active {
+     background-color: #ffbb42;
+ }
+ .main-menu .active a {
+    color: white;
+ }
+.section-bg {
+     background-color: #709dca;
+ }
+.article-body {
+    color:white;
+    font-family: "OpenSans";
+    text-align: center;
+    font-size: 1.6rem;
+}
+.article-title {
+    text-transform: uppercase;
+    font-family: "Gotham";
+    font-size: 3.5rem; 
+}
+.article-info {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.article-info input {
+    font-family: "OpenSans";
+    margin: 1% 1%;
+    padding: 2rem 3rem;
+    border-radius: 3%;
+    border: none;
+}
+.article-info_footer {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.article-info_footer input {
+    font-family: "OpenSans";
+    margin: 1% 1%;
+    padding: 2rem 3rem;
+    border-radius: 3%;
+}
+.article-info input[type="submit"]{
+    background-color: #ffbb42;
+    color:white;
+}
+.full-name {
+    background-image: url(../img/tel.jpg) no-repeat;
+}
+.notebook {
+    display: block;
+    margin: 0 auto;
+} 
+
+.section-bg-white {
+    background-color: white;
+    color: black;
+}
+.article-white {
+    color:black;
+    padding-top: 7rem;
+}
+.article-body img {
+    width: 62%;
+    margin-bottom: -50px;
+}

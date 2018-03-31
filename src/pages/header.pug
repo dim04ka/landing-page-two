@@ -1,0 +1,47 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport', content='initial-scale=1')
+  link(rel='stylesheet', type='text/css', href='style/animate.css')
+  link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css')
+  link(rel='stylesheet', type='text/css', href='styles/style.css')
+.section
+  .container
+    .row 
+      .col-md-auto
+        .header
+          figure.logo
+            a(href='#')
+              img.animated.fadeInLeft(src='img/logo.jpg', alt='logotip')
+              .header_btn#btn
+                i.fa.fa-align-justify
+      .col-md-auto.menu.animated.fadeInDown
+        ul.main-menu
+          li.active
+            a(href='#') Home
+          li
+            a(href='#') Services
+          li
+            a(href='#') About
+          li
+            a(href='#') Works
+          li
+            a(href='#') Blog
+          li
+            a(href='#') Clients
+          li
+            a(href='#') Contact
+.section.section-bg
+  .container
+    .article-body
+      h2.article-title.animated.fadeInDown
+        | boost up yoor local business
+      p.article-content.animated.fadeInDown
+        | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem.
+      form.article-info
+        input.full-name.animated.fadeInLeft(type='text', placeholder='Full Name')
+        input.animated.fadeInLeft(type='text', name='email-address', placeholder='Email Address')
+        input.animated.fadeInRight(type='text', name='phone', placeholder='Phone Bumber')
+        input.animated.fadeInRight(type='submit', value='REQUEST A QUOTE')
+      img(src='img/notebook.png', alt='notebook' width="648px" heigth="344px")
+
